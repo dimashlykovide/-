@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Конфигурация
-BOT_TOKEN = "8658602081:AAEBfzXMQakAk0eStYxpTY0S-0e1yg4bdq0"
+BOT_TOKEN = "8347558460:AAESWUEjlvVbw2d5HysdXCtEw9BDHFqALYM"
 POST_LINK = "https://t.me/c/2645114369/73"  # Ссылка на пост с гайдом
 
 # Пути к изображениям
@@ -200,4 +200,5 @@ def main():
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == "__main__":
+
     main()
